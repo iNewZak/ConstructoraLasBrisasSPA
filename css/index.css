@@ -1,19 +1,15 @@
 .titulo {
     color: #333;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .letra {
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .letra1 {
-    font-size: 90px;
-}
-
-.padi {
-    margin-bottom: 20px;
+    font-size: 60px;
 }
 
 .padi {
@@ -27,6 +23,7 @@
 .padi3 {
     padding: 200px;
 }
+
 .padi4 {
     padding: 25px;
 }
@@ -41,6 +38,7 @@ img {
     max-height: 100px;
     max-width: 100px;
 }
+
 .card {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
