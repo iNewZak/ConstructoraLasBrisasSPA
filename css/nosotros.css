@@ -49,6 +49,10 @@
 
 .mision_vision {
     background-image: url("/img/brisas2.png");
-    height: 500px;
+    height: 400px;
     width: 100%;
-}   
+}
+
+.inicio {
+    padding-top: 200px;
+}
