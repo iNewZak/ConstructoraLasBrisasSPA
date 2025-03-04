@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', Times, serif !important;
     background-color: #181818;
     color: #ECF0F1;
     margin: 0;
@@ -16,10 +16,10 @@ body {
 }
 
 header {
+    font-family: 'Times New Roman', Times, serif !important;
     background: radial-gradient(circle, #f5b042, #f39c12, #e77e23, #d15400, #bf3a2b);
     font-weight: bold;
     color: #ECF0F1;
-    font-family: Arial, sans-serif;
     text-align: end;
     position: relative;
     z-index: 1;
@@ -42,11 +42,12 @@ header ul a {
 
 header a {
     color: #ffffff !important;
+    font-size: 18px !important;
 }
 
 footer {
-    background: radial-gradient(circle, #f5b042, #f39c12, #e77e23, #d15400, #bf3a2b);
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    background: radial-gradient(circle, #f5b042, #f39c12, #e77e23, #d15400);
     font-weight: bold;
     color: #ECF0F1;
     margin-top: auto;
@@ -132,26 +133,20 @@ footer a {
     font-weight: bold;
 }
 
-.color_1 {
-    color: #f5b042;
-}
-
-.color_2 {
-    color: #f39c12;
-}
-
-.color_3 {
-    color: #e77e23;
-}
-
-.color_4 {
-    color: #d15400;
-}
-
-.color_5 {
-    color: #bf3a2b;
+a {
+    text-decoration: none !important;
 }
 
 .socios h6 {
     font-weight: 900;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: #f5b042 !important;
+    font-weight: 900 !important;
+}
+
+footer h1, h2, h3, h4, h5, h6, strong {
+    color: #bf3a2b !important;
+    font-weight: 900 !important;
 }
