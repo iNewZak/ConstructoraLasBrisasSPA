@@ -1,10 +1,3 @@
-img {
-    height: 98%;
-    width: 98%;
-    max-height: 100px;
-    max-width: 100px;
-}
-
 .preguntas .card {
     background-color: #f5b042;
     color: #ffffff;
@@ -20,6 +13,22 @@ img {
 .preguntas button:hover {
     text-align: start !important;
     color: #ffffff;
+}
+
+.tiposedes img {
+    height: 350px;
+    width: 100%;
+}
+
+.loquehacemos .card {
+    background-color: #f5b042;
+    color: #ffffff;
+}
+
+.loquehacemos h5 {
+    color: #ffffff !important;
+    text-align: center;
+    font-weight: 900;
 }
 
 @media (max-width: 768px) {

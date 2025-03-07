@@ -71,12 +71,12 @@ footer a {
 
 .dropdown-item:hover {
     background-color: #d15400 !important;
-    color: white !important;
+    color: #ffffff !important;
 }
 
 .dropdown-item:active {
     background-color: #bf3a2b !important;
-    color: white !important;
+    color: #ffffff !important;
 }
 
 .icon {
@@ -108,33 +108,9 @@ footer a {
     transform: scale(1.1);
 }
 
-.blurred-background {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: #ffffff3f;
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-}
-
-.blurred-background2 {
-    background-color: #ffffff3f;
-    backdrop-filter: blur(2px);
-    color: white;
-}
-
-.subtitulo {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
 a {
     text-decoration: none !important;
+    color: #333333 !important;
 }
 
 .socios h6 {
